@@ -1410,6 +1410,7 @@ progress {
   .col-lg-10 {
     flex: 0 0 auto;
     width: 83.33333333%;
+    display: none;
   }
 
   .col-lg-11 {
@@ -11425,6 +11426,7 @@ html {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: none
 }
 .callout h2, .callout .h2 {
   font-size: 3.5rem;
@@ -11513,16 +11515,16 @@ footer.footer .social-link:hover {
   z-index: 1;
 }
 .portfolio-item .caption .caption-content {
-  color: #fff;
-  margin: auto 2rem 2rem;
+  color: #000000;
+  margin:  2rem 2rem;
 }
 .portfolio-item .caption .caption-content h2, .portfolio-item .caption .caption-content .h2 {
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 .portfolio-item .caption .caption-content p {
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 @media (min-width: 992px) {
   .portfolio-item {
